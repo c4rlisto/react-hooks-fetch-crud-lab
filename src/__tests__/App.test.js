@@ -9,7 +9,7 @@ import {
 import "@testing-library/jest-dom/extend-expect";
 import { server } from "../mocks/server";
 
-import App from "../components/App";
+import App from "../App";
 
 beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());
